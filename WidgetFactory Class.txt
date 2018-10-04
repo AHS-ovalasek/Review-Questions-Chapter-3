@@ -1,0 +1,80 @@
+Owen Valasek
+WidgetFactory Class
+10/3/18
+
+public class WidgetFactory
+{
+//Fields
+private int widget;
+private int days;
+private int hours;
+
+/** 
+* The constructor accepts arguments for the factory's widgets, days, 
+* And hours
+*/ 
+
+public WidgetFactory(int widget, int hours, int days)
+{
+widget = w;
+hours = h;
+days = d;
+}
+
+/**
+* The setWidget method accepts an argument for 
+* the factorie's widget number
+*/
+
+public void setWidget(int widget)
+{
+widget = w;
+}
+
+/**
+* The setDay method accepts an argument for 
+* the factorie's day number
+*/
+
+public void setDay(int day)
+{
+day = d;
+}
+
+/**
+* The setHour method accepts an argument for 
+* the factorie's hour number
+*/
+
+public void setHour(int hour)
+{
+hour = h;
+}
+
+/**
+* The getWidget method returns the number of widgets
+*/
+
+public int getWidget()
+{
+return widget;
+}
+
+/**
+* The getDay method returns the number of days
+*/
+
+public int getDay()
+{
+return day;
+}
+
+/**
+* The getHour method returns the number of hours
+*/
+
+public int getHour()
+{
+return hour;
+}
+}
