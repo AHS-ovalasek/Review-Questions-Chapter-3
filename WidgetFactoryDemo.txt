@@ -1,0 +1,21 @@
+Owen Valasek
+WidgetFactory Demo
+10/3/18
+
+public class WidgetFactoryDemo
+{
+public static void main(String[] args)
+{
+int widget;
+int hours;
+int days;
+
+WidgetFactory.one(100, 10, 0)
+{
+widget = w;
+hours = h;
+days = d;
+}
+
+System.out.print("If " + w + "widgets are produced it would"
+ + "take " + d + "days and " + h + " hours to produce them")
